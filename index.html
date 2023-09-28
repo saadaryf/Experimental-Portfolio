@@ -1,0 +1,401 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Saad's PortFolio</title>
+    <link rel="stylesheet" href="/css/style.css">
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+        integrity="sha512-...">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
+        crossorigin="anonymous"></script>
+</head>
+
+<body>
+    <header>
+        <div class="hamburger" onclick="toggleHamMenu(); toogleHamIcon();">
+            <a class="ham-lines" href="#ham">
+                <div class="line"></div>
+                <div class="line"></div>
+                <div class="line"></div>
+            </a>
+        </div>
+        <div class="ham-menu">
+            <ul>
+                <li>
+                    <a href="#home" onclick="toggleHamMenu(); toogleHamIcon();">Home</a>
+                </li>
+                <li>
+                    <a href="#profile" onclick="toggleHamMenu(); toogleHamIcon();">Profile</a>
+                </li>
+                <li>
+                    <a href="#cv" onclick="toggleHamMenu(); toogleHamIcon();">Download CV</a>
+                </li>
+                <li>
+                    <a href="#qualifications" onclick="toggleHamMenu(); toogleHamIcon();">Qualifications</a>
+                </li>
+                <li>
+                    <a href="#projects" onclick="toggleHamMenu(); toogleHamIcon();">Projects</a>
+                </li>
+                <li>
+                    <a href="#services" onclick="toggleHamMenu(); toogleHamIcon();">Services</a>
+                </li>
+                <li>
+                    <a href="#contact" onclick="toggleHamMenu(); toogleHamIcon();">Contact</a>
+                </li>
+            </ul>
+        </div>
+    </header>
+    <main>
+        <div class="firstSection" id="home">
+            <div class="intro">
+                <h3>Hi,</h3>
+                <h1 class="white-heading">I'm Saad Arif</h1>
+                <p><span>Full Stack Web Developer</span></p><br />
+                <p>My goal is to become a highly skilled and successful software engineer. I aim to contribute to
+                    innovative projects, develop robust software solutions, and constantly enhance my technical
+                    expertise in areas such as programming languages, software development, and emerging technologies
+                    like AI.</p>
+                <a href="#profile">More About Me <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16"
+                        fill="currentColor" class="bi bi-chevron-compact-down" viewBox="0 0 16 16">
+                        <path fill-rule="evenodd"
+                            d="M1.553 6.776a.5.5 0 0 1 .67-.223L8 9.44l5.776-2.888a.5.5 0 1 1 .448.894l-6 3a.5.5 0 0 1-.448 0l-6-3a.5.5 0 0 1-.223-.67z" />
+                    </svg></a>
+            </div>
+            <div class="social-links">
+                <ul>
+                    <li><a id="icon" href="#"><i class="fa-brands fa-linkedin fa-2xl" style="color: #fafcff;"></i></a>
+                    </li>
+                    <li><a href="#"><i class="fa-brands fa-github fa-2xl" style="color: #ffffff;"></i></a></li>
+                    <li><a href="#"><i class="fa-brands fa-instagram fa-2xl" style="color: #ffffff;"></i></a></li>
+                </ul>
+            </div>
+            <button onclick="topFunction()" id="myBtn" title="Go to top"><i
+                    class="fa-solid fa-circle-arrow-up fa-xl"></i></button>
+        </div>
+        <div class="secondSection" id="profile">
+            <h3 class="black-heading">Profile</h3>
+            <div class="profile">
+                <div class="flexing">
+                    <table class="table1">
+                        <tr>
+                            <th>Personal Details</th>
+                            <th>Technical Skills</th>
+                        </tr>
+                        <tr>
+                            <td>
+                                <ul>
+                                    <li>
+                                        <h4>Fullname:</h4>
+                                        <p>Muhammad Saad Arif Dhillon</p>
+                                    </li>
+                                    <li>
+                                        <h4>Birth Date:</h4>
+                                        <p>December 31, 2002</p>
+                                    </li>
+                                    <li>
+                                        <h4>Occupation:</h4>
+                                        <p>Student</p>
+                                    </li>
+                                    <li>
+                                        <h4>Location:</h4>
+                                        <p>Lahore</p>
+                                    </li>
+                                    <li>
+                                        <h4>Email:</h4>
+                                        <p>saadaryf@gmail.com</p>
+                                    </li>
+                                </ul>
+                            </td>
+                            <td>
+                                <ul>
+                                    <li>
+                                        <h4>C++, Java</h4>
+                                        <progress value="85" max="100"> 85% </progress><br /><br />
+                                    </li>
+                                    <li>
+                                        <h4>Spring Boot, Java</h4>
+                                        <progress value="97" max="100"> 97% </progress><br /><br />
+                                    </li>
+                                    <li>
+                                        <h4>HTML, CSS</h4>
+                                        <progress value="90" max="100"> 90% </progress><br /><br />
+                                    </li>
+                                    <li>
+                                        <h4>Javascript</h4>
+                                        <progress value="32" max="100"> 32% </progress><br /><br />
+                                    </li>
+                                </ul>
+                            </td>
+
+                        </tr>
+                        <tr>
+                            <th>Languagues</th>
+                            <th>Interpersonal</th>
+                        </tr>
+                        <tr>
+                            <td>
+                                <ul>
+                                    <li>
+                                        <h4>English</h4>
+                                        <p>Proficient in Written Communication; Competent in Oral Communication.</p>
+                                    </li>
+                                    <li>
+                                        <h4>Urdu</h4>
+                                        <p>Native</p>
+                                    </li>
+                                    <li>
+                                        <h4>Punjabi</h4>
+                                        <p>Native</p>
+                                    </li>
+                                </ul>
+                            </td>
+                            <td>
+                                <ul>
+                                    <li>
+                                        <h4>Time Management</h4>
+                                        <p>Demonstrated ability to prioritize tasks and meet deadlines.</p>
+                                    </li>
+                                    <li>
+                                        <h4>Punctuality</h4>
+                                        <p>Consistently maintained punctuality and adherence to schedules.</p>
+                                    </li>
+                                    <li>
+                                        <h4>Adaptability</h4>
+                                        <p>Successfully adapted to changing project requirements and environments.</p>
+                                    </li>
+                                </ul>
+                            </td>
+                        </tr>
+                    </table>
+                </div>
+            </div>
+            <div class="center">
+                <a id="btn1" href="#contact" type="button" class="btn btn-outline-info">Hire Me</a>
+                <a id="btn2" href="#CV" type="button" class="btn btn-dark">Download CV</a>
+            </div>
+        </div>
+        <div class="thirdSection" id="qualifications">
+            <h3 class="black-heading">Qualifications</h3>
+            <div class="flexing">
+                <div class="experience">
+                    <table class="table2">
+                        <tr>
+                            <th colspan="2">Experience</th>
+                        </tr>
+                        <tr>
+                            <td>
+                                <div class="icon">
+                                    <i class="fa-solid fa-briefcase fa-2xl"></i>
+                                </div>
+
+                                <div class="lines"></div>
+                            </td>
+                            <td>
+                                <p>Intern</p>
+                                <h4>Punjab Information Technology Board (PITB)</h4>
+                                <p>August 2023 - September 2023</p>
+                            </td>
+                        </tr>
+                    </table>
+                </div>
+                <div class="education">
+                    <table class="table2">
+                        <tr>
+                            <th colspan="2">Education</th>
+                        </tr>
+                        <tr>
+                            <td>
+                                <div class="icon">
+                                    <i class="fa-solid fa-graduation-cap fa-2xl"></i>
+                                </div>
+
+                                <div class="lines"></div>
+                            </td>
+                            <td>
+                                <p>Student</p>
+                                <h4>University of Central Punjab (UCP) - Lahore</h4>
+                                <p>Octuber 2020 - Octuber 2024</p>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <div class="icon">
+                                    <i class="fa-solid fa-graduation-cap fa-2xl"></i>
+                                </div>
+
+                                <div class="lines"></div>
+                            </td>
+                            <td>
+                                <p>Student</p>
+                                <h4>Punjab College of Sciences - Gujranwala</h4>
+                                <p>April 2018 - April 2019</p>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <div class="icon">
+                                    <i class="fa-solid fa-graduation-cap fa-2xl"></i>
+                                </div>
+
+                                <div class="lines"></div>
+                            </td>
+                            <td>
+                                <p>Student</p>
+                                <h4>Jadeed Dastgir Ideal High School - Grw (PCC)</h4>
+                                <p>August 2023 - September 2023</p>
+                            </td>
+                        </tr>
+                    </table>
+                </div>
+            </div>
+        </div>
+        <div class="fourthSection" id="projects">
+            <div class="projects">
+                <h3>Projects</h3>
+                <table class="table3">
+                    <tr>
+                        <td>
+                            <div class="info-btns">
+                                <a href="" onclick=""><i class="fa-solid fa-circle-info "></i></a>
+                                <a style="color: gray;" class="disabled-link" href=""><i
+                                        class="fa-solid fa-link"></i></a>
+                            </div>
+                            <h4>Coming Soon..</h4>
+                            <p>Something Amazing is On the Horizon!</p>
+                        </td>
+                        <td>
+                            <div class="info-btns">
+                                <a href="" onclick=""><i class="fa-solid fa-circle-info "></i></a>
+                                <a href=""><i class="fa-solid fa-link"></i></a>
+                            </div>
+                            <h4>Scholor Chats</h4>
+                            <p>Java Spring Boot Web App</p>
+                        </td>
+                        <td>
+                            <div class="info-btns">
+                                <a href="" onclick=""><i class="fa-solid fa-circle-info "></i></a>
+                                <a href=""><i class="fa-solid fa-link"></i></a>
+                            </div>
+                            <h4>Library Manager</h4>
+                            <p>Java Spring Boot Web App</p>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <div class="info-btns">
+                                <a href="" onclick=""><i class="fa-solid fa-circle-info "></i></a>
+                                <a href=""><i class="fa-solid fa-link"></i></a>
+                            </div>
+                            <h4>Mini Search Engine</h4>
+                            <p>C++, DSA</p>
+                        </td>
+                        <td>
+                            <div class="info-btns">
+                                <a href="" onclick=""><i class="fa-solid fa-circle-info "></i></a>
+                                <a href=""><i class="fa-solid fa-link"></i></a>
+                            </div>
+                            <h4>Grocery Story Database</h4>
+                            <p>MySQL</p>
+                        </td>
+                        <td>
+                            <div class="info-btns">
+                                <a href="" onclick=""><i class="fa-solid fa-circle-info "></i></a>
+                                <a href=""><i class="fa-solid fa-link"></i></a>
+                            </div>
+                            <h4>Online Food Ordering</h4>
+                            <p>C++, OOP</p>
+                        </td>
+                    </tr>
+                </table>
+            </div>
+        </div>
+        <div class="fifthSection" id="services">
+            <h4 class="blue-heading">Services</h4>
+            <h1 class="white-heading">What I Can Do?</h1>
+            <p class="intro-gray">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Assumenda dolorem quia sint!
+                Animi sapiente
+                excepturi, perspiciatis nisi dolorem nulla temporibus? lorem19 Lorem ipsum dolor, sit amet consectetur
+                adipisicing elit. Explicabo, at.
+            </p>
+
+            <table class="table4">
+                <tr>
+                    <th><i class="fa-solid fa-laptop-code fa-2xl"></i><br />Front-End Development</th>
+                    <th><i class="fa-solid fa-database fa-2xl"></i><br />Back-end Development</th>
+                    <th><i class="fa-solid fa-earth-asia fa-2xl"></i><br />Full Stack Web Development</th>
+                </tr>
+                <tr>
+                    <td>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugiat quam dolor nam in nemo
+                            mollitia
+                            provident iste molestiae iure a.</p>
+                    </td>
+                    <td>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugiat quam dolor nam in nemo
+                            mollitia
+                            provident iste molestiae iure a.</p>
+                    </td>
+                    <td>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugiat quam dolor nam in nemo
+                            mollitia
+                            provident iste molestiae iure a.</p>
+                    </td>
+                </tr>
+            </table>
+        </div>
+        <div class="statistics">
+            <table class="table5" id="animatedTable">
+                <tr>
+                    <th><i class="fa-regular fa-file-code fa-2xl"></i></th>
+                    <th><i class="fa-solid fa-user-group fa-2xl"></i></th>
+                    <th><i class="fa-solid fa-award fa-2xl"></i></th>
+                    <th><i class="fa-regular fa-hourglass-half fa-2xl"></i></th>
+                </tr>
+                <tr>
+                    <td>
+                        <h4>9</h4>
+                        <p>Projects Completed</p>
+                    </td>
+                    <td>
+                        <h4>0</h4>
+                        <p>Happy Clients</p>
+                    </td>
+                    <td>
+                        <h4>39</h4>
+                        <p>Awards Received</p>
+                    </td>
+                    <td>
+                        <h4>900+</h4>
+                        <p>Hours</p>
+                    </td>
+                </tr>
+            </table>
+        </div>
+        <div class="sixthSection" id="contact">
+            <h4 class="blue-heading">Contact</h4>
+            <h1 class="white-heading">I'd Love to Hear From You.</h1>
+            <p class="intro-gray">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Suscipit, quia.</p>
+            <form action="https://formspree.io/f/xjvqalbn" method="POST">
+                <label for="name"></label>
+                <input type="text" name="name" placeholder="Name" required>
+                <label for="email"></label>
+                <input type="email" name="email" placeholder="Email" required>
+                <label for="subject"></label>
+                <input type="text" name="subject" placeholder="Subject" required>
+                <label for="message"></label>
+                <textarea rows="8" cols="67" name="message" placeholder="Message" required></textarea>
+                <button type="submit">SUBMIT</button>
+            </form>
+        </div>
+    </main>
+
+    <script src="/js/main.js"></script>
+</body>
+
+</html>
